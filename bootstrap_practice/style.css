@@ -1,0 +1,80 @@
+/* styling the img/logo */
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.logo{
+    justify-content: center;
+    text-align: center;
+}
+
+.row-con{
+    background-color: aliceblue;
+}
+/* Styling the hamburher menu */
+.navbar-toggler{
+    border: 0;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.nav {
+    display: flex;
+    width: 15px;
+    height: 8px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.top-bar{
+    background-color: grey;
+    margin-bottom: 5px;
+    height: 2px;
+    width: 40px;
+}
+
+.middle-bar{
+    background-color: grey;
+    margin-bottom: 5px;
+    height: 2px;
+    width: 40px;
+}
+
+.bottom-bar{
+    background-color: grey;
+    height: 2px;
+    width: 40px;
+}
+
+
+.socials{
+    display: flex;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline-flex;
+    padding-right: 10px;
+    padding-top: 30px;
+    height: 30px;
+}
+
+ul li a{
+    color: grey;
+    padding-right: 30px;
+   
+}
+
+.col-pad{
+    padding-top: 50px;
+}
+
+hr {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}

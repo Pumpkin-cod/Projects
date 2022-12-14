@@ -1,0 +1,120 @@
+
+.list-container{
+    display: flex;
+    justify-content: end; 
+    padding-top: 20px;
+}
+
+div ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+div ul li:hover{
+    color: #46791D;
+}
+
+.signup{
+    background-color: #46791D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.circle-index{
+    position: relative;
+    z-index: 7;
+}
+
+.circle{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #46791D;
+    left: 0px;
+    z-index: 6;
+    box-shadow: 3px 6px 5px 3px rgb(230, 229, 229);
+}
+
+.hero1{
+   padding-top: 50px;
+   font-size: 25px;
+}
+
+.btn-one{
+    background-color: #46791D;
+    padding: 20px 60px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-two{
+    border: 2px solid #46791D;
+    background-color: white;
+    color: #46791D;
+    padding: 20px 60px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.about{
+    margin-top: 20px;
+    background-color: rgba(65, 144, 2, 0.2);
+}
+
+.card-col{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+   
+}
+
+.card{
+    box-shadow: 4px 4px 4px 4px rgba(65, 144, 2, 0.2);
+}
+
+.hero2{
+    padding-top: 100px;
+}
+
+.details{
+ padding-bottom: 20px;
+ font-size: 30px;
+}
+
+.hero2-new{
+    font-size: 40px;
+}
+
+.images{
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.input{
+    /* margin-top: 20px; */
+    margin-right: 20px;
+    height: 70px;
+    width: 500px;
+    border: 2px solid #46791D;
+}
+
+.btn-input{
+    padding: 18px 40px;
+    color: white;
+    background-color: #46791D;
+    font-size: 22px;
+    border: none;
+}
+
+.footer{
+    padding-top: 50px;
+    padding-left: 80px;
+}
