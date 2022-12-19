@@ -1,0 +1,149 @@
+.list-items ul li{
+    list-style: none;
+    display: inline-flex;
+    padding-top: 80px;
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.globe{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.list-items ul li:hover{
+    color: rgb(12, 109, 253);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.hero-text{
+    font-size: 60px;
+}
+
+.p-text{
+    font-size: 20px;
+
+}
+
+.input-btn{
+    width: 60%;
+    height: 60px;
+    border-radius: 40px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 2px 3px 3px 3px rgba(142, 141, 141,0.2);
+}
+
+.btn-round{
+    padding: 19px 30px;
+    background-color: rgb(12, 109, 253);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    position: relative;
+    left: -120px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scheduling h2{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+span{
+    color: rgb(12, 109, 253);
+}
+
+.grayscale{
+       -webkit-filter: grayscale(100%); /* Safari and Chrome */
+        -moz-filter: grayscale(100%); /* Firefox */
+        -ms-filter: grayscale(100%); /* Internet Explorer */
+        filter: grayscale(100%); /* Standard syntax */      
+}
+
+.images-logo{
+    margin: 60px 60px;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.circle{
+    height: 50px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: rgb(12, 109, 253);
+    position: relative;
+    left: -10px;
+    color: white;
+
+}
+
+.hero1{
+    margin-top: 60px;
+}
+
+.h1-genius{
+    font-size: 70px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.btn-round1{
+    padding: 19px 30px;
+    background-color: rgb(12, 109, 253);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    margin-top: 10px;
+}
+
+.curated-calender{
+    padding-top: 30px;
+    margin-top: 60px;
+}
+
+.background{
+     /* background:url(./images/Screenshot\ 2022-12-16\ at\ 4.42.39\ PM.png); */
+     background: url(./images/Group\ 24.png);
+     background-repeat: no-repeat;
+     background-position:inherit;
+     height: 400px;
+     width: auto;
+     overflow: hidden;
+}
+
+.background-text{
+    color: white;
+    padding: 80px 160px 50px 160px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.download{
+    font-size: 10px;
+}
+
+.btn-download{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+i{
+    font-size: larger;
+}
